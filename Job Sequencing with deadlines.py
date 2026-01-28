@@ -22,4 +22,18 @@ for _ in range(t):
                 jobs_done += 1
                 total_profit += p
                 break
+
+    #Sample Input
+    1
+    5
+    2 100
+    1 19
+    2 27
+    1 25
+    3 15
+    #Expected Output
+    3 142
     print(jobs_done, total_profit)
+
+
+
