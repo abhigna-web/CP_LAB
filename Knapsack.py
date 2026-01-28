@@ -20,3 +20,12 @@ for _ in range(t):
             total_value += ratio * remaining_capacity
             break
     print(f"{total_value:.6f}")
+
+#Sample Input
+1
+3 50
+60 10
+100 20
+120 30
+#Expected Output
+240.000000
