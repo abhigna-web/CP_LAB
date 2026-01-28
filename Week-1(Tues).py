@@ -41,3 +41,10 @@ for _ in range(t):
     arr = list(map(int, input().split()))
     merge_sort(arr, 0, n - 1)  # sort the array using merge sort
     print(" ".join(map(str, arr)))
+
+#Sample Input  
+1 
+7  
+4 1 6 2 5 3 2 
+#Expected Output 
+1 2 2 3 4 5 6
