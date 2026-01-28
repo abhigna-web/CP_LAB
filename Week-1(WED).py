@@ -32,3 +32,9 @@ for _ in range(t):
     n = int(input())
     arr = list(map(int, input().split()))
     print(max_subarray_sum(arr, 0, n - 1))
+
+#Sample Input 
+1 
+9 -2  1 -3  4  -1  2  1  -5 4 
+#Expected Output 
+6
