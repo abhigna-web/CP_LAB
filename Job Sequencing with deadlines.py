@@ -22,6 +22,7 @@ for _ in range(t):
                 jobs_done += 1
                 total_profit += p
                 break
+    print(jobs_done, total_profit)
 
     #Sample Input
     1
@@ -33,7 +34,8 @@ for _ in range(t):
     3 15
     #Expected Output
     3 142
-    print(jobs_done, total_profit)
+   
+
 
 
 
